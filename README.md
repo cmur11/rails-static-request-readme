@@ -20,7 +20,7 @@ Before we dive into the code and routing configurations, it helps to know how HT
 
 Let's try this out in our application. I'm going to use a blogging application as a case study in this lesson.
 
-To begin, start up the Rails server and go to `localhost:3000/about`. As you will see, this throws a routing error: `No route matches [GET] "/about"`. To fix this, stop the Rails server by pressing `control + c`. (Anytime you make a routing change you need to restart the Rails server.)
+To begin, start up the Rails server and go to `rails c`. As you will see, this throws a routing error: `No route matches [GET] "/about"`. To fix this, stop the Rails server by pressing `control + c`. (Anytime you make a routing change you need to restart the Rails server.)
 
 Now draw the route by opening the `config/routes.rb` file and adding the following route inside of the `draw` block:
 
